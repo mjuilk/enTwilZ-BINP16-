@@ -31,7 +31,7 @@ while True: #in order to keep it running constantly
             break
         else: #To force them to give an answer in case they write
             print('Please type "Y" or "N"\n') #something like "octopus"
-    while True: #Publication date range; N just skips this
+    while True: #RetMax specification; N just skips this
         RetReq = str(input('\nWould you like to specify a maximum number of articles that this program finds? \n Default is 20. \n Type "Y" OR "N" \n')).upper()
         if RetReq == 'N':
             RetMax = 20
